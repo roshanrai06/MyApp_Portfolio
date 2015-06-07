@@ -1,10 +1,12 @@
 package com.nanodegree.roshan.myapp_portfolio;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +16,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void onButtonClicked(View v) {
+        switch (v.getId()) {
+            case R.id.buttonSpotify:
+                Toast.makeText(this, R.string.string_spotify_message, Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buttonScoreApp:
+                Toast.makeText(this, R.string.string_score_app_message, Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buttonLibraryApp:
+                Toast.makeText(this, R.string.string_library_app_message, Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buttonBuildItBigger:
+                Toast.makeText(this, R.string.string_build_it_bigger_app_message, Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buttonXYZReader:
+                Toast.makeText(this, R.string.string_xyz_reader_app_message, Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buttonCapstoneOwnApp:
+                Toast.makeText(this, R.string.string_capstone_app_message, Toast.LENGTH_SHORT).show();
+                break;
+
+
+        }
+
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

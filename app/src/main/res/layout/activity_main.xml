@@ -12,7 +12,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:textSize="@dimen/text_view_margin_bottom"
-            android:layout_marginBottom="@dimen/text_view_margin_bottom"
+            android:layout_marginBottom="@dimen/text_view_size"
             android:layout_marginTop="@dimen/text_view_margin_top"
             android:text="@string/string_nanodegree" />
         <Button
