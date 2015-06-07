@@ -4,78 +4,47 @@
     android:layout_height="wrap_content">
 
     <LinearLayout
-
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
-            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text_view_margin_bottom"
+            android:layout_marginBottom="@dimen/text_view_margin_bottom"
+            android:layout_marginTop="@dimen/text_view_margin_top"
             android:text="@string/string_nanodegree" />
-
         <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:background="#F08C35"
+            android:id="@+id/buttonSpotify"
+            style="@style/ButtonStyle"
             android:text="@string/string_spotify" />
 
         <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:background="#F08C35"
+            android:id="@+id/buttonScoreApp"
+            style="@style/ButtonStyle"
             android:text="@string/string_score_app" />
 
         <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:background="#F08C35"
+            android:id="@+id/buttonLibraryApp"
+            style="@style/ButtonStyle"
             android:text="@string/string_library_app" />
 
         <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:background="#F08C35"
+            android:id="@+id/buttonBuildItBigger"
+            style="@style/ButtonStyle"
             android:text="@string/string_build_it_bigger" />
 
         <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:background="#F08C35"
+            android:id="@+id/buttonXYZReader"
+            style="@style/ButtonStyle"
             android:text="@string/string_xyz_reader" />
 
         <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:background="#F08C35"
+            android:id="@+id/buttonCapstoneOwnApp"
+            android:background="@color/button_background2"
+            style="@style/ButtonStyle"
             android:text="@string/string_capstone" />
-
 
     </LinearLayout>
 
