@@ -15,7 +15,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="20dp"
-            android:text="My Nanodegree Apps! " />
+            android:text="@string/string_nanodegree" />
 
         <Button
             android:layout_width="fill_parent"
@@ -25,7 +25,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:background="#F08C35"
-            android:text="Button 1" />
+            android:text="@string/string_spotify" />
 
         <Button
             android:layout_width="fill_parent"
@@ -35,7 +35,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:background="#F08C35"
-            android:text="Button 2" />
+            android:text="@string/string_score_app" />
 
         <Button
             android:layout_width="fill_parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:background="#F08C35"
-            android:text="Button 3" />
+            android:text="@string/string_library_app" />
 
         <Button
             android:layout_width="fill_parent"
@@ -55,7 +55,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:background="#F08C35"
-            android:text="Button 4" />
+            android:text="@string/string_build_it_bigger" />
 
         <Button
             android:layout_width="fill_parent"
@@ -65,7 +65,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:background="#F08C35"
-            android:text="Button 5" />
+            android:text="@string/string_xyz_reader" />
 
         <Button
             android:layout_width="fill_parent"
@@ -74,7 +74,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:background="#F08C35"
-            android:text="Button 6" />
+            android:text="@string/string_capstone" />
 
 
     </LinearLayout>
